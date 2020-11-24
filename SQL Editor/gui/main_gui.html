@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <script src="../lib/gslib_client_v1.2.3.js" type="text/javascript"></script>
+        <script src="../lib/jquery.js" type="text/javascript"></script>
+        <script src="../lib/bootstrap.js" type="text/javascript"></script>
+        <script src="../lib/peachy-pie_native.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="../lib/bootstrap.css" >
+        <link rel="stylesheet" href="../lib/font-awesome.css" >
+        <script src="../scripts/main_script.js" type="text/javascript"></script>
+        <span id="user-set-variables"></span>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <b class="navbar-brand text-light" >SQLite Demo</b>
+            <button class="btn text-light" style="float: right;font-weight: bolder;">:</button>        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </div>
+        </nav>
+    <input type="text" class="form-control mt-1" id="name" placeholder="name">
+    <input type="number" class="form-control mt-1" id="age" placeholder="age">
+    <button class="btn btn-info mt-2" onclick="save_data()"><i class="fa fa-save"></i> save</button>
+	<table class="table table-light">
+        <thead class="thead thead-light">
+            <table class="table table-info mt-2">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>name</th>
+                        <th>age</th>
+                    </tr>
+                </thead>
+                <tbody id="table-data"></tbody>
+            </table>
+        </thead>
+    </table>
+    </body>
+</html>
