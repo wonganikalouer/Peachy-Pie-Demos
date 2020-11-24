@@ -1,0 +1,19 @@
+#field-view{
+    height: 120px;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    font-size: 30px;
+}
+
+.btn{
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: #ccc;
+}
+
+.btn:active{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
